@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Learning - Tsys]">
+  <test name="third test(failed)">
+    <classes>
+      <class name="testcases">
+        <methods>
+          <include name="closedb"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="opendb"/>
+        </methods>
+      </class> <!-- testcases -->
+      <class name="testing2">
+        <methods>
+          <include name="stopselenium"/>
+          <include name="runselenium"/>
+        </methods>
+      </class> <!-- testing2 -->
+      <class name="testng_param">
+        <methods>
+          <include name="sum" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testng_param -->
+    </classes>
+  </test> <!-- third test(failed) -->
+</suite> <!-- Failed suite [TestNG Learning - Tsys] -->
